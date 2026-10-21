@@ -1,0 +1,8 @@
+public class HelloWorld {
+    
+    // The main method is the entry point of any Java application
+    public static void main(String[] args) {
+        // Prints text to the console and adds a new line
+        System.out.println("Hello, World!");
+    }
+}
