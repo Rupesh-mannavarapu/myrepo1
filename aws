@@ -6,3 +6,27 @@ public class HelloWorld {
         System.out.println("Hello, World!");
     }
 }
+
+--- data added by developer ----
+public class CheckEvenOdd {
+
+    public static void main(String[] args) {
+        // Create a Scanner object to read from the standard input stream (console)
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter an integer: ");
+        
+        // Read the integer entered by the user
+        int number = scanner.nextInt();
+
+        // Check if the number is divisible by 2
+        if (number % 2 == 0) {
+            System.out.println(number + " is an even number.");
+        } else {
+            System.out.println(number + " is an odd number.");
+        }
+
+        // Close the scanner to prevent memory leaks
+        scanner.close();
+    }
+}
